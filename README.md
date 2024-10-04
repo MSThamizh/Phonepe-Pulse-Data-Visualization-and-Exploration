@@ -2,6 +2,16 @@
 
 This project provides an interactive platform for visualizing and exploring transaction data from the PhonePe Pulse repository. Users can gain insights into transaction trends across different parameters through dynamic visualizations.
 
+## Workflow
+
+The workflow of this project can be summarized as follows:
+
+1. **Data Acquisition**: Clone the PhonePe Pulse GitHub repository to access the dataset. Identify relevant data files containing transaction details.
+2. **Data Extraction**: Write a Python script to extract data from the cloned repository. Implement data loading logic to read and process the dataset.
+3. **Data Transformation**: Transform the dataset into a structured format suitable for analysis. Use Pandas for data manipulation and transformation tasks.
+4. **Data Storage**: Set up a MySQL database to store the cleaned and transformed data. Load the transformed data into the MySQL database for easy access.
+5. **Dashboard Development**: Create an interactive dashboard using Streamlit. Implement visualizations using Plotly for geo-mapping and other data representations. Design multiple dropdown filters to enable users to explore different aspects of the data.
+
 ## Features
 
 - **Data Extraction & Transformation**: Python scripts for cloning the PhonePe Pulse dataset and cleaning it for analysis.
