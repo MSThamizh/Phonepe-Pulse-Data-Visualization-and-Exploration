@@ -7,7 +7,7 @@ This project provides an interactive platform for visualizing and exploring tran
 - **Data Extraction & Transformation**: Python scripts for cloning the PhonePe Pulse dataset and cleaning it for analysis.
 - **Database Integration**: Cleaned data is stored in a **MySQL** database for efficient data retrieval.
 - **Interactive Dashboard**: Built with **Streamlit** and **Plotly**, offering a user-friendly interface with multiple dropdown options to filter and visualize different insights.
-- **Real-time Geo-visualizations**: Interactive maps displaying transaction data across various regions and timeframes.
+- **Geo-visualizations**: Interactive maps displaying transaction data across various regions and timeframes.
 - **Secure & Scalable**: Designed to maintain data integrity and ensure efficient performance.
   
 ## Workflow
