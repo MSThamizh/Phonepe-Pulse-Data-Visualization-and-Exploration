@@ -33,4 +33,4 @@ The workflow of this project can be summarized as follows:
 - **Plotly Documentation**: [https://plotly.com/python/](https://plotly.com/python/)
 - **MySQL Documentation**: [https://www.mysql.com/](https://www.mysql.com/)
 - **Streamlit Documentation**: [https://docs.streamlit.io/library/api-reference](https://docs.streamlit.io/library/api-reference)
-- - **Dataset**: [Phonepe Pulse Data]([https://docs.streamlit.io/library/api-reference](https://github.com/PhonePe/pulse#readme))
+- **Dataset**: [Phonepe Pulse Data]([https://docs.streamlit.io/library/api-reference](https://github.com/PhonePe/pulse#readme))
