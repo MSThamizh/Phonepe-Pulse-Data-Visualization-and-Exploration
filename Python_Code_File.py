@@ -222,7 +222,7 @@ def plot8(df,Year,Quarter):
                     color_discrete_sequence=px.colors.sequential.Viridis,
                     hole=0.5,
                     height=450, 
-                    width=450)
+                    width=500)
     st.plotly_chart(fig_donut2)
 
 # Transaction Amount, Transaction Count Distribution Across States by Transaction Type - Bubble Chart
@@ -645,6 +645,7 @@ def plot_user3(df,Year,Quarter,State):
     df = df[df['Year']==Year]
     df = df[df['Quarter']==Quarter]
     df = df[df['State']==State]
+    df['District'] = df['District'].str.title()
     df.reset_index(inplace=True)
 
     fig_bubble = px.scatter(df,
@@ -1063,7 +1064,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 with col1:
     st.image("D:\Guvi\Projects\Phonepe Pulse Data Visualization and Exploration\Images\Logo.jpeg", 
-             width=450)
+             width=450, use_column_width=True)
 with col2:
     st.header("Data Visualization and Exploration")
 
@@ -1083,7 +1084,7 @@ if selected_tab == "Home":
     col1, col2 = st.columns(2)
     with col1:
         st.image("D:\Guvi\Projects\Phonepe Pulse Data Visualization and Exploration\Images\Image_1.jpeg", 
-             width=450)
+             width=450, use_column_width=True)
     with col2:        
         st.markdown("### :violet[Key Features]")
         st.write("""
