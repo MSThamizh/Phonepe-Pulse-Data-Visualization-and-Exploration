@@ -30,7 +30,7 @@ The workflow of this project can be summarized as follows:
 ## References
 
 - **Python**: [https://docs.python.org/3/](https://docs.python.org/3/)
-- **Pandas Dataframe**: [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)]
+- **Pandas Dataframe**: [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 - **Plotly Documentation**: [https://plotly.com/python/](https://plotly.com/python/)
 - **MySQL Documentation**: [https://www.mysql.com/](https://www.mysql.com/)
 - **Streamlit Documentation**: [https://docs.streamlit.io/library/api-reference](https://docs.streamlit.io/library/api-reference)
